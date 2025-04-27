@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tratamientos estéticos en Clínica Belladerm - Descubre nuestra completa gama de tratamientos faciales y corporales, realizados por profesionales médicos certificados.">
+    <title>Tratamientos | Clínica Estética Belladerm</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Belladerm</h1>
+                <span>Clínica de Medicina Estética</span>
+            </div>
+            <div class="nav-links">
+                <i class="fas fa-times"></i>
+                <ul>
+                    <li><a href="index.html#hero">Inicio</a></li>
+                    <li><a href="tratamientos.html" class="active">Tratamientos</a></li>
+                    <li><a href="index.html#promocion">Promociones</a></li>
+                    <li><a href="index.html#testimonials">Testimonios</a></li>
+                    <li><a href="index.html#before-after">Antes/Después</a></li>
+                    <li><a href="index.html#about-us">Nosotros</a></li>
+                    <li><a href="index.html#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars"></i>
+            <a href="index.html#contact" class="btn-primary cta-button">Reservar Cita</a>
+        </div>
+    </nav>
+
+    <!-- Header de Tratamientos -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nuestros Tratamientos</h1>
+            <p>Descubre nuestra completa gama de tratamientos estéticos, realizados exclusivamente por médicos especialistas</p>
+        </div>
+    </section>
+
+    <!-- Categorías de Tratamientos -->
+    <section class="treatment-categories">
+        <div class="container">
+            <div class="categories-nav">
+                <button class="category-btn active" data-category="todos">Todos</button>
+                <button class="category-btn" data-category="facial">Faciales</button>
+                <button class="category-btn" data-category="corporal">Corporales</button>
+                <button class="category-btn" data-category="antiedad">Antiedad</button>
+                <button class="category-btn" data-category="otros">Otros Servicios</button>
+            </div>
+            
+            <div class="treatments-grid" id="treatments-container">
+                <!-- TRATAMIENTOS FACIALES -->
+                <div class="treatment-card" data-category="facial">
+                    <div class="treatment-image">
+                        <img src="img/imagenestetica01.jpg" alt="HIFU Facial">
+                        <span class="badge">Más Popular</span>
+                    </div>
+                    <div class="treatment-content">
+                        <h3>HIFU Facial</h3>
+                        <p>Lifting sin cirugía con ultrasonido focalizado de alta intensidad, para tensar la piel y reducir arrugas.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Sin tiempo de recuperación</li>
+                            <li><i class="fas fa-check-circle"></i> Resultados desde la primera sesión</li>
+                            <li><i class="fas fa-check-circle"></i> Estimula colágeno natural</li>
+                            <li><i class="fas fa-check-circle"></i> Efecto lifting inmediato</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 250€</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="treatment-card" data-category="facial antiedad">
+                    <div class="treatment-image">
+                        <img src="img/personal medico.jpg" alt="Toxina Botulínica">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Toxina Botulínica</h3>
+                        <p>Tratamiento para reducir arrugas de expresión y líneas finas con resultados naturales y precisos.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Procedimiento rápido (15-20 min)</li>
+                            <li><i class="fas fa-check-circle"></i> Resultados en 3-5 días</li>
+                            <li><i class="fas fa-check-circle"></i> Duración de 4-6 meses</li>
+                            <li><i class="fas fa-check-circle"></i> Técnica avanzada Microbotox</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 190€</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="treatment-card" data-category="facial antiedad">
+                    <div class="treatment-image">
+                        <img src="img/imagen_pacientes.jpg" alt="Ácido Hialurónico">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Rellenos con Ácido Hialurónico</h3>
+                        <p>Restaura volumen, define contornos y rellena arrugas profundas con resultados inmediatos.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Resultados inmediatos</li>
+                            <li><i class="fas fa-check-circle"></i> Productos premium certificados</li>
+                            <li><i class="fas fa-check-circle"></i> Duración de 9-18 meses</li>
+                            <li><i class="fas fa-check-circle"></i> Técnica MD Codes™</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 280€</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- TRATAMIENTOS CORPORALES -->
+                <div class="treatment-card" data-category="corporal">
+                    <div class="treatment-image">
+                        <img src="img/imagen estetica.jpg" alt="Mesoterapia Corporal">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Mesoterapia Corporal</h3>
+                        <p>Tratamiento para reducir grasa localizada y celulitis mediante microinyecciones de principios activos.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Tratamiento mínimamente invasivo</li>
+                            <li><i class="fas fa-check-circle"></i> Resultados progresivos</li>
+                            <li><i class="fas fa-check-circle"></i> Efecto reductor y tonificante</li>
+                            <li><i class="fas fa-check-circle"></i> Mejora aspecto de la piel</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 150€/sesión</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="treatment-card" data-category="facial antiedad">
+                    <div class="treatment-image">
+                        <img src="img/antesydespues01.jpg" alt="Peeling Químico">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Peeling Químico</h3>
+                        <p>Renovación celular mediante exfoliación química para tratar manchas, acné y signos de envejecimiento.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Diferentes intensidades disponibles</li>
+                            <li><i class="fas fa-check-circle"></i> Unifica el tono de la piel</li>
+                            <li><i class="fas fa-check-circle"></i> Mejora textura y luminosidad</li>
+                            <li><i class="fas fa-check-circle"></i> Protocolos personalizados</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 120€</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="treatment-card" data-category="corporal">
+                    <div class="treatment-image">
+                        <img src="img/antesydespues02.jpg" alt="Cavitación Ultrasónica">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Cavitación Ultrasónica</h3>
+                        <p>Reduce grasa localizada mediante ondas ultrasónicas que fragmentan las células adiposas.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> No invasivo y sin dolor</li>
+                            <li><i class="fas fa-check-circle"></i> Resultados visibles desde primeras sesiones</li>
+                            <li><i class="fas fa-check-circle"></i> Reduce volumen y contornea</li>
+                            <li><i class="fas fa-check-circle"></i> Compatible con otros tratamientos</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 90€/sesión</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="treatment-card" data-category="facial">
+                    <div class="treatment-image">
+                        <img src="img/antesydespues03.jpg" alt="Dermapen">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Dermapen - Microagujas</h3>
+                        <p>Estimulación del colágeno mediante microperforaciones que favorecen la regeneración cutánea.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Mejora cicatrices y estrías</li>
+                            <li><i class="fas fa-check-circle"></i> Penetración de principios activos</li>
+                            <li><i class="fas fa-check-circle"></i> Revitaliza la piel</li>
+                            <li><i class="fas fa-check-circle"></i> Recuperación rápida</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">Desde 160€</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="treatment-card" data-category="otros">
+                    <div class="treatment-image">
+                        <img src="img/imagen_pacientes.jpg" alt="Evaluación Facial">
+                    </div>
+                    <div class="treatment-content">
+                        <h3>Evaluación Facial Personalizada</h3>
+                        <p>Análisis completo de tu piel y estructura facial para diseñar un plan de tratamiento a medida.</p>
+                        <ul class="benefits">
+                            <li><i class="fas fa-check-circle"></i> Diagnóstico profesional</li>
+                            <li><i class="fas fa-check-circle"></i> Plan de tratamiento detallado</li>
+                            <li><i class="fas fa-check-circle"></i> Recomendaciones para casa</li>
+                            <li><i class="fas fa-check-circle"></i> Seguimiento personalizado</li>
+                        </ul>
+                        <div class="treatment-footer">
+                            <span class="price">GRATUITA con tratamiento</span>
+                            <a href="index.html#contact" class="btn-outline">Reservar Cita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA sección -->
+    <section class="treatment-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿No estás seguro de qué tratamiento necesitas?</h2>
+                <p>Agenda una consulta gratuita con nuestros especialistas y te ayudaremos a encontrar la solución perfecta para tus necesidades.</p>
+                <a href="index.html#contact" class="btn-primary">Solicitar Consulta</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/34911234567" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Botón Volver Arriba -->
+    <div class="back-to-top">
+        <a href="#" id="back-to-top-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Belladerm</h2>
+                    <span>Clínica de Medicina Estética</span>
+                    <p>Tratamientos estéticos avanzados con un enfoque médico y resultados naturales.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html#hero">Inicio</a></li>
+                        <li><a href="tratamientos.html">Tratamientos</a></li>
+                        <li><a href="index.html#promocion">Promociones</a></li>
+                        <li><a href="index.html#testimonials">Testimonios</a></li>
+                        <li><a href="index.html#about-us">Sobre Nosotros</a></li>
+                        <li><a href="index.html#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-treatments">
+                    <h3>Tratamientos</h3>
+                    <ul>
+                        <li><a href="tratamientos.html">HIFU Facial</a></li>
+                        <li><a href="tratamientos.html">Toxina Botulínica</a></li>
+                        <li><a href="tratamientos.html">Ácido Hialurónico</a></li>
+                        <li><a href="tratamientos.html">Tratamientos Faciales</a></li>
+                        <li><a href="tratamientos.html">Tratamientos Corporales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Madrid</p>
+                    <p><i class="fas fa-phone"></i> +34 91 123 45 67</p>
+                    <p><i class="fas fa-envelope"></i> info@clinicabelladerm.es</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Clínica Estética Belladerm. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Aviso Legal</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script>
+        // JavaScript para el filtrado de categorías de tratamientos
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const treatmentCards = document.querySelectorAll('.treatment-card');
+            
+            // Función para filtrar tratamientos
+            function filterTreatments(category) {
+                treatmentCards.forEach(card => {
+                    if (category === 'todos' || card.dataset.category.includes(category)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+            
+            // Event listeners para los botones de categoría
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Quitar clase activa de todos los botones
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    // Añadir clase activa al botón clicado
+                    this.classList.add('active');
+                    // Filtrar tratamientos según la categoría
+                    filterTreatments(this.dataset.category);
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
